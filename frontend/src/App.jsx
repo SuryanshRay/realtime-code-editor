@@ -4,7 +4,7 @@ import io from "socket.io-client";
 import Editor from "@monaco-editor/react";
 
 // Connection options fixed to prevent duplicate sockets
-const socket = io("http://localhost:5000", {
+const socket = io(https://realtime-code-editor-i2jf.onrender.com, {
 "), {
   autoConnect: true,
   transports: ["websocket", "polling"],
